@@ -4,7 +4,7 @@ Submitted by: **Rajvi Maisuria**
 
 This web app: **This web application creates a flashcard web app for studying Product Management terminology and frameworks to prep for interviews and case studies.**
 
-Time spent: **2** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
@@ -24,15 +24,6 @@ The following **required** functionality is completed:
   - [X] Clicking on a flipped card again flips it back, showing the front
 - [X] **Clicking on the next button displays a new card**
 
-The following **optional** features are implemented:
-
-- [ ] Cards contain images in addition to or in place of text
-  - [ ] Some or all cards have images in place of or in addition to text
-- [ ] Cards have different visual styles such as color based on their category
-  - Example categories you can use:
-    - Difficulty: Easy/medium/hard
-    - Subject: Biology/Chemistry/Physics/Earth science
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
@@ -43,7 +34,7 @@ GIF created with ScreenToGif
 
 ## Notes
 
-The main challenges dealth with knowing how to use the click features. The other was styling. I had trouble with some CSS features based on location. Where the items were being placed on the screen. 
+The main challenges dealth with knowing how to use the click features. The other was styling. I had trouble with some CSS features based on location. Where the items were being placed on the screen. Instead of a random feature. There is more structure in this version. There are two buttons, a previous and a next to go forward and background to get more out of studying. 
 
 ## License
 
