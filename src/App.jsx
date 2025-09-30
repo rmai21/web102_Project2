@@ -1,26 +1,22 @@
 import { useState } from 'react'
 import './App.css'
+import Flashcard from "./Flashcard";
 
 function App() {
-  const [cards, setCards] = useState(0)
+  const flashcards = [
+    { question: "What is a Product Manager?", answer: "..." },
+    { question: "Key responsibilities?", answer: "..." },
+    { question: "What is an MVP?", answer: "..." },
+    { question: "What is a Product Roadmap?", answer: "..." },
+  ];
 
   return (
-    <>
-      <div>
-        <h1>The Ultimate PM Overview</h1>
-        <p>
-          Test Your Product Management Knowledge! 
-          Click on the Flashcard to begin and flip the card over. To move on to the next card, click the arrow keys.
-        </p>
-      </div>
-
-      <div className="card">
-        <h2>Flashcard {cards}</h2>
-        <p>Question will be here</p>
-      </div>
-
-    </>
-  )
+    <div>
+      <h1>The Ultimate PM Overview</h1>
+      <p>Test Your Product Management Knowledge with this set of Flashcards!</p>
+      <Flashcard flashcards={flashcards} />
+    </div>
+  );
 }
 
-export default App
+export default App;
