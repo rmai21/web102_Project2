@@ -28,9 +28,9 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented required features:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='/src/assets/Web102-Project2-Demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ScreenToGif  
+GIF created with Snipping Tool 
 
 ## Notes
 
