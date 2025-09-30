@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   background-color: #f0f8ff;
   margin: 0;
-  padding: 20px 0; /* space at the top for the title */
+  padding: 20px 0; 
 }
 
 h1 {
